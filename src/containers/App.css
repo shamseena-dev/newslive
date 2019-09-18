@@ -1,0 +1,110 @@
+.logoDiv {
+	
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: rgba(0,0,0,0.9);
+	color:white;
+	border-bottom:2px solid #425b5e;
+	font-family: 'Bree Serif', serif;
+	
+}
+.logoDiv .logo{
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.App-logo {
+  height: 100px;
+  pointer-events: none;
+  margin-left:15px;
+
+}
+
+.logoDiv .timer{
+	margin-left:auto;
+	margin-right: 10px;
+	
+}
+.logoDiv .logoName{
+	padding-top:8px;
+
+
+}
+.search{
+	background-image: url('../images/planet.jpg');
+	height:auto;
+	padding:20px;
+	display:flex;
+	flex-direction: column;
+	flex-wrap:nowrap;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Cinzel', serif;
+}
+
+.search h1,.search h2{
+	color:white;
+
+}
+
+.searchBar{
+	border: 2px solid grey;
+	border-radius: 4px;
+	width:500px;
+	height:50px;
+	font-size: 20px;
+	padding:10px;
+
+}
+
+.newsDisplayDiv{
+	height:auto;
+	background-color: #c0c0c0;
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.card{
+	background-color: white;
+	height:auto;
+	width:300px;
+	margin:10px;
+}
+
+.card img{
+	
+	width:300px;
+	height:auto;
+}
+.card h1,.card p,.card h5{
+	padding:10px;
+}
+.empty{
+	background-color: #f2f2f3;
+	height:40vmin;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.footerDiv {
+	
+	background-color: #0d0202;
+	border:2px solid black;
+	color: rgba(255,255,255,0.4);
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+
+	
+}
+
+.footerDiv p{
+	padding:10px;
+}
+
+
+
