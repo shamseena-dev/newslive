@@ -1,4 +1,8 @@
-Tech: React.js, Javascript, HTML5, CSS3
+Tech: React.js, HTML5, CSS3
+API : News API
+
+
+--------------------------------------------------------------------------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
