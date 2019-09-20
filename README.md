@@ -1,4 +1,5 @@
-Tech: React.js, HTML5, CSS3
+Tech: React.js, HTML5,CSS3
+
 API : News API
 
 
