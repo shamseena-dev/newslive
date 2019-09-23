@@ -28,11 +28,13 @@
 }
 .logoDiv .logoName{
 	padding-top:8px;
+	font-size: 30px;
 
 
 }
 .search{
 	background-image: url('../images/planet.jpg');
+	text-align: center;
 	height:auto;
 	padding:20px;
 	display:flex;
@@ -51,7 +53,7 @@
 .searchBar{
 	border: 2px solid grey;
 	border-radius: 4px;
-	width:500px;
+	width:60%;
 	height:50px;
 	font-size: 20px;
 	padding:10px;
@@ -106,5 +108,12 @@
 	padding:10px;
 }
 
-
+@media screen and (min-width: 900px){
+	.searchBar{
+		width:50%;
+	}
+	.logoDiv .logoName{
+		font-size: 35px;
+	}
+}
 
