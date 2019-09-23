@@ -1,4 +1,4 @@
-## ||Mobile-first || React|| News API || HTML5 || CSS3 |
+## || React|| News API || HTML5 || CSS3 |
 
 ## Integrated News API 
 
