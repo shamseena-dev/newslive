@@ -1,15 +1,12 @@
-# ||Mobile-first || React|| News API || HTML5 || CSS3 |
+## ||Mobile-first || React|| News API || HTML5 || CSS3 |
 
+## Integrated News API 
 
-# Mobile-First App
+## Modern Design.
 
-# Integrated News API 
+## Logo, branding done.
 
-# Modern Design.
-
-# Logo, branding done.
-
-# Dynamic Timer set on top right.
+## Dynamic Timer set on top right.
 
 ->> A (mobile-first) Live News App built using React and News API, can access and search for top Live news from over 30k news sources and blogs worldwide.Also, set a dynamic timer on top.
 
