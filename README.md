@@ -1,7 +1,7 @@
-||Mobile-first || React|| News API || HTML5 || CSS3 |
+# ||Mobile-first || React|| News API || HTML5 || CSS3 |
 
 
-#Mobile-First App
+# Mobile-First App
 
 # Integrated News API 
 
