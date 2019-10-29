@@ -8,7 +8,7 @@
 
 ## Dynamic Timer set on top right.
 
-->> A (mobile-first) Live News App built using React and News API, can access and search for top Live news from over 30k news sources and blogs worldwide.Also, set a dynamic timer on top.
+->> A Live News App built using React and News API, can access and search for top Live news from over 30k news sources and blogs worldwide.Also, set a dynamic timer on top.
 
 
 --------------------------------------------------------------------------------------------------------------
