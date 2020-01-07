@@ -1,0 +1,33 @@
+.search{
+	background-image: url('./images/planet.jpg');
+	text-align: center;
+	height:auto;
+	padding:20px;
+	display:flex;
+	flex-direction: column;
+	flex-wrap:nowrap;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Cinzel', serif;
+	h1,h2{
+		color:white;
+	}
+}
+
+
+.searchBar{
+	border: 2px solid grey;
+	border-radius: 4px;
+	width:60%;
+	height:50px;
+	font-size: 20px;
+	padding:10px;
+
+}
+
+@media screen and (min-width: 900px){
+	.searchBar{
+		width:50%;
+	}
+	
+}

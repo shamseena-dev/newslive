@@ -1,11 +1,12 @@
+
 import React from 'react';
-import Card from './Card';
-import '../containers/App.css';
+import Card from '../card/card.component';
+import './newsdisplay.styles.scss';
 
 const Newsdisplay=({articlesArrayList})=> {
 	return (
 		<div className="newsDisplayDiv"> 
-		    
+				    
 		    {articlesArrayList.map((article,i)=>{
 		    	return (
 		    		<Card 
@@ -21,6 +22,7 @@ const Newsdisplay=({articlesArrayList})=> {
 		    })
 
 		   }
+		
 		</div>
 		);
 }

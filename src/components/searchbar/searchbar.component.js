@@ -1,5 +1,5 @@
 import React from 'react';
-import '../containers/App.css';
+import './searchbar.styles.scss';
 
 
 const Searchbar= ({searchChange,timer})=>{

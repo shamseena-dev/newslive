@@ -1,5 +1,4 @@
 import React from 'react';
-import '../containers/App.css';
 
 function Timer({timeNow}){
 		return(

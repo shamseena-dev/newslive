@@ -1,12 +1,11 @@
 import React from 'react';
-import Logo from '../components/Logo';
-import Searchbar from '../components/Searchbar';
-import Newsdisplay from '../components/Newsdisplay';
-import Empty from '../components/Empty';
-import Footer from '../components/Footer';
-import Timer from '../components/Timer.js';
+import Logo from './components/logo/logo.component';
+import Searchbar from './components/searchbar/searchbar.component';
+import Newsdisplay from './components/newsdisplay/newsdisplay.component';
+import Empty from './components/empty/empty.component';
+import Footer from './components/footer/footer.component';
+import Timer from './components/timer/timer.component.js';
 
-import './App.css';
 
 
 class App extends React.Component {
@@ -46,22 +45,29 @@ class App extends React.Component {
 		let filteredNews=this.state.newsDisplayed.filter(article=>{
 			return article.title.toLowerCase().includes(this.state.searchField.toLowerCase());
 			});
+		let cnnNews = this.state.newsDisplayed.filter(article=>{
+			return article.source.name.toLowerCase().includes("CNN".toLowerCase());
+			});
 		var display;
 		var timer= <Timer timeNow={this.state.time}/>;
 
-		/*Check if the search result is empty or not*/
+		/*Check if the search result is empty or not */
 		if(filteredNews.length!==0){
 			display= <Newsdisplay articlesArrayList={filteredNews} />
 			}
 		else{
 			display= <Empty />
-			}
+			}  
 		return(
 			<div>
 				{/* All components to be rendered*/}
 				<Logo timer={timer} />
 				<Searchbar searchChange={this.onSearchChange} /> 
-				{display} {/*Either NewsDisplay component or Empty component*/}
+
+				{display} 
+			{/*Either NewsDisplay component or Empty component*/}
+			    <Searchbar searchChange={this.onSearchChange} /> 
+			    <Newsdisplay articlesArrayList={cnnNews} />
 				<Footer/>
 			</div>
 			)

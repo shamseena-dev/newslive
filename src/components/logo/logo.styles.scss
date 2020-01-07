@@ -1,0 +1,40 @@
+.logoDiv {
+	
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: rgba(0,0,0,0.9);
+	color:white;
+	border-bottom:2px solid #425b5e;
+	font-family: 'Bree Serif', serif;
+
+	.timer{
+	margin-left:auto;
+	margin-right: 10px;
+	
+    }
+    .logoName{
+	padding-top:8px;
+	font-size: 30px;
+    }
+	
+    .logo{
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	}
+}
+.App-logo {
+  height: 100px;
+  pointer-events: none;
+  margin-left:15px;
+
+}
+
+@media screen and (min-width: 900px){
+	.logoDiv {
+	    .logoName{
+		    font-size: 35px;
+		}    
+	}
+}
