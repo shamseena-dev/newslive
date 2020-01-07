@@ -1,27 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+$blue_color: #0000FF;
+
 .logoDiv {
 	
-	display:flex;
-	flex-direction: row;
-	justify-content: space-between;
-	background-color: rgba(0,0,0,0.9);
-	color:white;
-	border-bottom:2px solid #425b5e;
-	font-family: 'Bree Serif', serif;
+		display:flex;
+		flex-direction: row;
+		justify-content: space-between;
+		background-color: rgba(0,0,0,0.9);
+		color:white;
+		border-bottom:2px solid #425b5e;
+		font-family: 'Bree Serif', serif;
 
-	.timer{
-	margin-left:auto;
-	margin-right: 10px;
-	
-    }
+
     .logoName{
-	padding-top:8px;
-	font-size: 30px;
+		padding-top:8px;
+		font-size: 30px;
     }
 	
     .logo{
-	display:flex;
-	flex-direction: row;
-	justify-content: flex-start;
+		display:flex;
+		flex-direction: row;
+		justify-content: flex-start;
+	}
+	.topRight{
+		display:flex;
+		flex-direction: row;
+		justify-content: space-around;
+		
+		.navLinks{
+			display:flex;
+			flex-direction: row;
+			align-items: center;
+		    list-style: none;
+		    text-decoration: none;
+		    color:white;
+
+			 .navItem{
+			   	 text-decoration: none;
+				color:white;
+				margin-right: 20px;
+				margin-left: 20px;
+				padding-top: 20px;
+				font-size: 20px;
+				font-family : 'Montserrat', sans-serif;
+				&:hover{
+					color:blue;
+				}
+			}
+		
+		}
+		.timerDisplay{
+		margin-left:20px;
+		margin-right: 10px;
+		border:5px solid $blue_color;
+		padding-left :10px;
+		width: 120px;
+		font-family : 'Montserrat', sans-serif;
+		
+    }
+
 	}
 }
 .App-logo {

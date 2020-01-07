@@ -5,6 +5,7 @@ import Newsdisplay from './components/newsdisplay/newsdisplay.component';
 import Empty from './components/empty/empty.component';
 import Footer from './components/footer/footer.component';
 import Timer from './components/timer/timer.component.js';
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 
 
@@ -48,27 +49,39 @@ class App extends React.Component {
 		let cnnNews = this.state.newsDisplayed.filter(article=>{
 			return article.source.name.toLowerCase().includes("CNN".toLowerCase());
 			});
+		let bbcNews = this.state.newsDisplayed.filter(article=>{
+			return article.source.name.toLowerCase().includes("BBC".toLowerCase());
+			});
 		var display;
 		var timer= <Timer timeNow={this.state.time}/>;
 
-		/*Check if the search result is empty or not */
+		/*Check if the search result is empty or not 
 		if(filteredNews.length!==0){
 			display= <Newsdisplay articlesArrayList={filteredNews} />
 			}
 		else{
 			display= <Empty />
-			}  
+			}  */
 		return(
 			<div>
+			  <BrowserRouter >
 				{/* All components to be rendered*/}
 				<Logo timer={timer} />
-				<Searchbar searchChange={this.onSearchChange} /> 
+				{/*<Searchbar searchChange={this.onSearchChange} /> 
 
 				{display} 
 			{/*Either NewsDisplay component or Empty component*/}
-			    <Searchbar searchChange={this.onSearchChange} /> 
-			    <Newsdisplay articlesArrayList={cnnNews} />
+			  {/*}  <Searchbar searchChange={this.onSearchChange} /> 
+			    <Newsdisplay articlesArrayList={cnnNews} />  */}
+			     <Searchbar searchChange={this.onSearchChange} /> 
+			     <Switch >
+				    <Route path = "/" exact component = {(props)=><Newsdisplay {...props} articlesArrayList={filteredNews} /> } />
+				    <Route path = "/cnn" exact component = {(props)=><Newsdisplay {...props} articlesArrayList={cnnNews} /> } />
+				    <Route path = "/bbc" exact component = {(props)=><Newsdisplay {...props} articlesArrayList={bbcNews} /> } />
+			   
+			    </Switch>
 				<Footer/>
+			  </BrowserRouter >
 			</div>
 			)
 		};

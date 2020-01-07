@@ -1,6 +1,7 @@
 import React from 'react';
 import './logo.styles.scss';
 import logo from './logo1.svg';
+import {Link} from 'react-router-dom';
 
 function Logo ({timer}) {
 	return (
@@ -9,8 +10,15 @@ function Logo ({timer}) {
 				<img src={logo} className="App-logo" alt="Logo"/> 
 				<h1 className="logoName"> News<span style={{color:"blue"}}>Live</span></h1> 
 			</div>
-			<h5>CNN News</h5>
-			<h5 className="timer"> {timer}</h5>
+			<div className= "topRight">
+				<ul className= "navLinks">
+				<Link to = "/bbc" >
+				     <li className= "navItem">BBC </li></ Link>
+				<Link to = "/cnn" >
+				     <li className= "navItem">CNN </li></ Link>
+				</ul>
+				<h5 className="timerDisplay"> {timer}</h5>
+			</div>
 
 		</div>
 		);
