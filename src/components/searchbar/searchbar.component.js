@@ -2,7 +2,7 @@ import React from 'react';
 import './searchbar.styles.scss';
 
 
-const Searchbar= ({searchChange,timer})=>{
+const Searchbar= ({searchChange})=>{
 
 			return(
 			<div className="search">
@@ -13,14 +13,6 @@ const Searchbar= ({searchChange,timer})=>{
 					placeholder="search headlines here" 
 					className="searchBar" 
 					onChange={searchChange} />
-				<h5> {timer}</h5>
-
-				{/*<button 
-					type="button" 
-					className="buttonSearch"
-					>Search</button>
-				*/}
-
 				
 			</div>
 			);

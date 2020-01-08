@@ -12,6 +12,8 @@ function Logo ({timer}) {
 			</div>
 			<div className= "topRight">
 				<ul className= "navLinks">
+				<Link to = "/" >
+				     <li className= "navItem">Home </li></ Link>
 				<Link to = "/bbc" >
 				     <li className= "navItem">BBC </li></ Link>
 				<Link to = "/cnn" >

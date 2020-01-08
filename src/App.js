@@ -73,9 +73,12 @@ class App extends React.Component {
 			{/*Either NewsDisplay component or Empty component*/}
 			  {/*}  <Searchbar searchChange={this.onSearchChange} /> 
 			    <Newsdisplay articlesArrayList={cnnNews} />  */}
-			     <Searchbar searchChange={this.onSearchChange} /> 
 			     <Switch >
-				    <Route path = "/" exact component = {(props)=><Newsdisplay {...props} articlesArrayList={filteredNews} /> } />
+				    <Route path = "/" exact render = {()=> 
+				    	(<div>
+				    		<Searchbar searchChange={this.onSearchChange} />
+				    		<Newsdisplay articlesArrayList={filteredNews} /> 
+				    	</div>)} />
 				    <Route path = "/cnn" exact component = {(props)=><Newsdisplay {...props} articlesArrayList={cnnNews} /> } />
 				    <Route path = "/bbc" exact component = {(props)=><Newsdisplay {...props} articlesArrayList={bbcNews} /> } />
 			   
