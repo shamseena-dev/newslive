@@ -4,7 +4,7 @@ import './footer.styles.scss';
 function Footer() {
 	return(
 		<div className="footerDiv"> 
-			<p> Copyrights (c) 2019, Shamz </p>
+			<p> Copyrights (c) 2020, Shamz </p>
 			<p> Powered by NewsAPI.</p>
 		</div>
 
