@@ -6,15 +6,15 @@ Brief Note ->> A Live News App built using React and integrated with Rest API- N
 
 ## || React| React Router| Rest API| NPM (Package Manager)| SASS/SCSS| HTML5||
 	 							
-# SPA (Single Page Application)
-# Integrated with Rest API- News API
-# React Router for routing 
-# Logo & branding set 
-# Modern Design
-# Dynamic Timer set
-# Interactive
-# Responsive
-# Dynamic
+## SPA (Single Page Application)
+## Integrated with Rest API- News API
+## React Router for routing 
+## Logo & branding set 
+## Modern Design
+## Dynamic Timer set
+## Interactive
+## Responsive
+## Dynamic
 
 
 A fully responsive and dynamic React App integrated with Rest API - News API .
