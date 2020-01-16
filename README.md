@@ -4,7 +4,17 @@
 Brief Note ->> A Live News App built using React and integrated with Rest API- News API, can access and search for top Live news from over 30k news sources and blogs worldwide.Also, set a dynamic timer on top.
 
 
-## || React| React Router| Rest API| NPM (Package Manager)| SASS/SCSS| HTML5||
+## || React
+
+## || React Router
+
+## || Rest API
+
+## || NPM (Package Manager)
+
+## || SASS/SCSS
+
+## || HTML5
 	 							
 ## SPA (Single Page Application)
 ## Integrated with Rest API- News API
