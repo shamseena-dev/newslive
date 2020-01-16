@@ -2,7 +2,6 @@ import React from 'react';
 import Logo from './components/logo/logo.component';
 import Searchbar from './components/searchbar/searchbar.component';
 import Newsdisplay from './components/newsdisplay/newsdisplay.component';
-import Empty from './components/empty/empty.component';
 import Footer from './components/footer/footer.component';
 import Timer from './components/timer/timer.component.js';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
@@ -52,7 +51,6 @@ class App extends React.Component {
 		let bbcNews = this.state.newsDisplayed.filter(article=>{
 			return article.source.name.toLowerCase().includes("BBC".toLowerCase());
 			});
-		var display;
 		var timer= <Timer timeNow={this.state.time}/>;
 
 		/*Check if the search result is empty or not 

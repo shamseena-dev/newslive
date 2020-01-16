@@ -6,7 +6,7 @@ import './newsdisplay.styles.scss';
 
 const Newsdisplay=({articlesArrayList})=> {
 
-		if(Object.keys(articlesArrayList).length == 0){
+		if(Object.keys(articlesArrayList).length === 0){
 
 		return (<Empty />)
 	    }
