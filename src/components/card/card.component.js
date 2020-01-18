@@ -7,7 +7,7 @@ const Card=(props)=>{
 			<img src={props.image}	alt="news_image" />
 			<h3> {props.title}</h3>
 			<h5>Source : {props.source}</h5>
-			<p>{props.content}</p>
+			<p>{props.content.slice(0, 200) + "..."}</p> 
 			<h5><a href={props.url} target="_blank" rel="noopener noreferrer">Click here</a> to  Read more</h5>			
 		</div>
 		)
