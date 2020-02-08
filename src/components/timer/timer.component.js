@@ -2,7 +2,7 @@ import React from 'react';
 
 function Timer({timeNow}){
 		return(
-			<h5>{timeNow.toLocaleTimeString()}</h5>
+			<h6>{timeNow.toLocaleTimeString()}</h6>
 			)
 		
 }
