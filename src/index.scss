@@ -3,5 +3,9 @@ body {
   font-family: "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height:100%;
+}
+html{
+	height:100%;
 }
 

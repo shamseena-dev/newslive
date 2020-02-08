@@ -6,7 +6,7 @@ const Searchbar= ({searchChange})=>{
 
 			return(
 			<div className="search">
-				<h1>Get Worldwide Top Live News </h1>
+				<h1>Worldwide Top Live News </h1>
 				<h2>From over 30,000 news sources and blogs</h2>
 				<input 
 					type="search" 

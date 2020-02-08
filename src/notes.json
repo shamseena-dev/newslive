@@ -1,7 +1,0 @@
-"predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-
-
-    "private": true,
-  "homepage": "https://shamseena-dev.github.io/News-ReactApp",
-  "dependencies": {

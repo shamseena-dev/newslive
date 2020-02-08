@@ -1,6 +1,6 @@
 import React from 'react';
 import './logo.styles.scss';
-import logo from './logo1.svg';
+import logo from './cover.png';
 import {Link} from 'react-router-dom';
 
 function Logo ({timer}) {
@@ -8,7 +8,7 @@ function Logo ({timer}) {
 		<div className="logoDiv">
 			<div className="logo">
 				<img src={logo} className="App-logo" alt="Logo"/> 
-				<h1 className="logoName"> News<span style={{color:"blue"}}>Live</span></h1> 
+				{/*<h1 className="logoName"> News<span style={{color:"blue"}}>Live</span></h1> */}
 			</div>
 			<div className= "topRight">
 				<ul className= "navLinks">

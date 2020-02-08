@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 $blue_color: #0000FF;
 
 .logoDiv {
@@ -6,26 +5,28 @@ $blue_color: #0000FF;
 		display:flex;
 		flex-direction: row;
 		justify-content: space-between;
-		background-color: rgba(0,0,0,0.9);
-		color:white;
+		background-color: rgba(0,0,0,0);
+		color:black;
 		border-bottom:2px solid #425b5e;
-		font-family: 'Bree Serif', serif;
+		height: 100px;
+		font-family: 'Open Sans', sans-serif;
 
-
-    .logoName{
-		padding-top:8px;
-		font-size: 30px;
-    }
 	
     .logo{
 		display:flex;
 		flex-direction: row;
 		justify-content: flex-start;
+		padding:10px;
+		
+		img{
+		  height:80px;
+		}
 	}
 	.topRight{
 		display:flex;
 		flex-direction: row;
 		justify-content: space-around;
+		align-items: center;
 		
 		.navLinks{
 			display:flex;
@@ -33,16 +34,15 @@ $blue_color: #0000FF;
 			align-items: center;
 		    list-style: none;
 		    text-decoration: none;
-		    color:white;
+		    color:black;
 
 			 .navItem{
 			   	 text-decoration: none;
-				color:white;
+				color:black;
 				margin-right: 20px;
 				margin-left: 20px;
-				padding-top: 20px;
+				padding-top: auto;
 				font-size: 15px;
-				font-family : 'Montserrat', sans-serif;
 				&:hover{
 					color:blue;
 				}
@@ -54,9 +54,8 @@ $blue_color: #0000FF;
 		margin-right: 10px;
 		padding-left :10px;
 		width: 120px;
-	        font-size:15px;
-		font-family : 'Montserrat', sans-serif;
-	        
+	        font-size:18px;
+		  
 		
     }
 
