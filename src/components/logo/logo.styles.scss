@@ -5,7 +5,7 @@ $blue_color: #0000FF;
 		display:flex;
 		flex-direction: row;
 		justify-content: space-between;
-		background-color: rgba(0,0,0,0);
+		background-color: #e6e6f1;
 		color:black;
 		border-bottom:2px solid #425b5e;
 		height: 100px;
@@ -42,7 +42,8 @@ $blue_color: #0000FF;
 				margin-right: 20px;
 				margin-left: 20px;
 				padding-top: auto;
-				font-size: 15px;
+				font-size: 18px;
+				font-weight:bold;
 				&:hover{
 					color:blue;
 				}
