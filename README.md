@@ -1,3 +1,4 @@
+Deployed : https://newsliveapp.netlify.app/
 
 ## NewsLive Web App - SPA 
 
