@@ -1,0 +1,38 @@
+$blue_color: #0000FF;
+
+
+
+.timerDisplay{
+		margin-left: 20px !important ;
+		margin-right: 10px;
+		padding-left :10px;
+		width: 120px;
+	        font-size:18px;
+	        color: grey !important;
+	       
+		  
+		
+    }
+ .navItem{
+			   	
+				
+				margin-left: 20px !important ;
+				padding-top: auto !important;
+				font-size: 18px !important;
+				font-weight:bold !important;
+				&:hover{
+					color:white;
+				}
+}
+.App-logo {
+  height: 100px;
+  width:auto;
+  pointer-events: none;
+  margin-left:15px;
+
+}
+
+
+@media screen and (max-width: 600px){
+	
+}

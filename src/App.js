@@ -1,5 +1,6 @@
+
 import React from 'react';
-import Logo from './components/logo/logo.component';
+import Nav from './components/nav/nav.component';
 import Searchbar from './components/searchbar/searchbar.component';
 import Newsdisplay from './components/newsdisplay/newsdisplay.component';
 import Footer from './components/footer/footer.component';
@@ -64,7 +65,7 @@ class App extends React.Component {
 			<div>
 			  <BrowserRouter >
 				{/* All components to be rendered*/}
-				<Logo timer={timer} />
+				<Nav timer={timer} />
 				{/*<Searchbar searchChange={this.onSearchChange} /> 
 
 				{display} 

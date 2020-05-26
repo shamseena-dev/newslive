@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/News-ReactApp/static/css/main.e846a8a1.chunk.css",
-    "main.js": "/News-ReactApp/static/js/main.385b1211.chunk.js",
-    "main.js.map": "/News-ReactApp/static/js/main.385b1211.chunk.js.map",
-    "runtime-main.js": "/News-ReactApp/static/js/runtime-main.105895d1.js",
-    "runtime-main.js.map": "/News-ReactApp/static/js/runtime-main.105895d1.js.map",
-    "static/js/2.bf49a0b8.chunk.js": "/News-ReactApp/static/js/2.bf49a0b8.chunk.js",
-    "static/js/2.bf49a0b8.chunk.js.map": "/News-ReactApp/static/js/2.bf49a0b8.chunk.js.map",
-    "index.html": "/News-ReactApp/index.html",
-    "precache-manifest.4f161880c12c01c912db5df792a48b78.js": "/News-ReactApp/precache-manifest.4f161880c12c01c912db5df792a48b78.js",
-    "service-worker.js": "/News-ReactApp/service-worker.js",
-    "static/css/main.e846a8a1.chunk.css.map": "/News-ReactApp/static/css/main.e846a8a1.chunk.css.map",
-    "static/js/2.bf49a0b8.chunk.js.LICENSE": "/News-ReactApp/static/js/2.bf49a0b8.chunk.js.LICENSE",
-    "static/media/logo1.svg": "/News-ReactApp/static/media/logo1.4cdf4bc3.svg",
-    "static/media/searchbar.styles.scss": "/News-ReactApp/static/media/planet.c9ce145e.jpg"
+    "main.css": "/static/css/main.b39c8782.chunk.css",
+    "main.js": "/static/js/main.56332eb7.chunk.js",
+    "main.js.map": "/static/js/main.56332eb7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.aa232785.js",
+    "runtime-main.js.map": "/static/js/runtime-main.aa232785.js.map",
+    "static/js/2.e3bda904.chunk.js": "/static/js/2.e3bda904.chunk.js",
+    "static/js/2.e3bda904.chunk.js.map": "/static/js/2.e3bda904.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.79e09c8b04d4b07cd099a254c22e7173.js": "/precache-manifest.79e09c8b04d4b07cd099a254c22e7173.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.b39c8782.chunk.css.map": "/static/css/main.b39c8782.chunk.css.map",
+    "static/js/2.e3bda904.chunk.js.LICENSE": "/static/js/2.e3bda904.chunk.js.LICENSE",
+    "static/media/cover.png": "/static/media/cover.a6bd13e5.png",
+    "static/media/searchbar.styles.scss": "/static/media/news.11ec1198.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.105895d1.js",
-    "static/js/2.bf49a0b8.chunk.js",
-    "static/css/main.e846a8a1.chunk.css",
-    "static/js/main.385b1211.chunk.js"
+    "static/js/runtime-main.aa232785.js",
+    "static/js/2.e3bda904.chunk.js",
+    "static/css/main.b39c8782.chunk.css",
+    "static/js/main.56332eb7.chunk.js"
   ]
 }
