@@ -23,9 +23,9 @@ class App extends React.Component {
    /*To fetch News API */
 	componentDidMount(){
 		setInterval(()=>this.currentTime(),1000)
-		var url = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=23afc4d0ecd44a1388531295c8f399a2';
-		var url2= 'https://cors-anywhere.herokuapp.com/'+url;
-		fetch(url2).then(resp=>resp.json())
+		var url = '/v2/top-headlines?country=us&apiKey=23afc4d0ecd44a1388531295c8f399a2';
+		
+		fetch(url).then(resp=>resp.json())
 		.then(data=>{
 			
 			return this.setState({newsDisplayed:data.articles})
