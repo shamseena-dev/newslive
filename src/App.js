@@ -1,12 +1,12 @@
 
 import React from 'react';
+
 import Nav from './components/nav/nav.component';
 import Searchbar from './components/searchbar/searchbar.component';
 import Newsdisplay from './components/newsdisplay/newsdisplay.component';
 import Footer from './components/footer/footer.component';
 import Timer from './components/timer/timer.component.js';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
-
 
 
 class App extends React.Component {
@@ -24,8 +24,7 @@ class App extends React.Component {
 	componentDidMount(){
 		setInterval(()=>this.currentTime(),1000)
 		var url = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=23afc4d0ecd44a1388531295c8f399a2';
-		fetch(url)
-		.then(resp=>resp.json())
+		fetch(url).then(resp=>resp.json())
 		.then(data=>{
 			
 			return this.setState({newsDisplayed:data.articles})
